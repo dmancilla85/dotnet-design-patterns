@@ -5,7 +5,7 @@
 	/// </summary>
 	internal abstract class Strategy
 
-  {
-    public abstract void AlgorithmInterface();
-  }
+	{
+		public abstract void AlgorithmInterface();
+	}
 }

@@ -7,7 +7,7 @@ namespace GangOfFour.Strategy.RealWorld
 	/// </summary>
 	internal abstract class SortStrategy
 
-  {
-    public abstract void Sort(List<string> list);
-  }
+	{
+		public abstract void Sort(List<string> list);
+	}
 }

@@ -5,19 +5,19 @@
 	/// </summary>
 	internal class Item
 
-  {
-    private readonly string _name;
+	{
+		private readonly string _name;
 
-    // Constructor
-    public Item(string name)
-    {
-      this._name = name;
-    }
+		// Constructor
+		public Item(string name)
+		{
+			this._name = name;
+		}
 
-    // Gets name
-    public string Name
-    {
-      get { return _name; }
-    }
-  }
+		// Gets name
+		public string Name
+		{
+			get { return _name; }
+		}
+	}
 }

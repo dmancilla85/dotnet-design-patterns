@@ -5,7 +5,7 @@
 	/// </summary>
 	internal interface IVisitor
 
-  {
-    void Visit(Element element);
-  }
+	{
+		void Visit(Element element);
+	}
 }

@@ -5,7 +5,7 @@
 	/// </summary>
 	internal abstract class Aggregate
 
-  {
-    public abstract Iterator CreateIterator();
-  }
+	{
+		public abstract Iterator CreateIterator();
+	}
 }

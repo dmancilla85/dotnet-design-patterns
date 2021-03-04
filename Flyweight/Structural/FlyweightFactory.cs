@@ -7,20 +7,20 @@ namespace GangOfFour.Flyweight.Structural
 	/// </summary>
 	internal class FlyweightFactory
 
-  {
-    private readonly Hashtable flyweights = new Hashtable();
+	{
+		private readonly Hashtable flyweights = new Hashtable();
 
-    // Constructor
-    public FlyweightFactory()
-    {
-      flyweights.Add("X", new ConcreteFlyweight());
-      flyweights.Add("Y", new ConcreteFlyweight());
-      flyweights.Add("Z", new ConcreteFlyweight());
-    }
+		// Constructor
+		public FlyweightFactory()
+		{
+			flyweights.Add("X", new ConcreteFlyweight());
+			flyweights.Add("Y", new ConcreteFlyweight());
+			flyweights.Add("Z", new ConcreteFlyweight());
+		}
 
-    public Flyweight GetFlyweight(string key)
-    {
-      return (Flyweight)flyweights[key];
-    }
-  }
+		public Flyweight GetFlyweight(string key)
+		{
+			return (Flyweight)flyweights[key];
+		}
+	}
 }

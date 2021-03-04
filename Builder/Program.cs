@@ -5,8 +5,8 @@ using System;
 namespace GangOfFour.Builder
 {
 	/// <summary>
-	/// Separate the construction of a complex object from its representation so that the same 
-	/// construction process can create different representations.
+	/// Separate the construction of a complex object from its representation so
+	/// that the same construction process can create different representations.
 	/// </summary>
 	internal static class Program
 	{
@@ -21,8 +21,8 @@ namespace GangOfFour.Builder
 			Console.WriteLine("** Real World example **");
 			Console.WriteLine();
 
-			/* This real-world code demonstates the Builder pattern in which different vehicles are assembled 
-			 * in a step-by-step fashion. The Shop uses VehicleBuilders to construct a variety of Vehicles in 
+			/* This real-world code demonstates the Builder pattern in which different vehicles are assembled
+			 * in a step-by-step fashion. The Shop uses VehicleBuilders to construct a variety of Vehicles in
 			 * a series of sequential steps. */
 
 			VehicleBuilder builder;

@@ -5,14 +5,14 @@
 	/// </summary>
 	internal abstract class Character
 
-  {
-    protected char symbol;
-    protected int width;
-    protected int height;
-    protected int ascent;
-    protected int descent;
-    protected int pointSize;
+	{
+		protected int ascent;
+		protected int descent;
+		protected int height;
+		protected int pointSize;
+		protected char symbol;
+		protected int width;
 
-    public abstract void Display(int pointSize);
-  }
+		public abstract void Display(int pointSize);
+	}
 }

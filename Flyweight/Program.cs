@@ -20,7 +20,7 @@ namespace GangOfFour.Flyweight
 			Console.WriteLine("** Real World example **");
 			Console.WriteLine();
 
-			/* This real-world code demonstrates the Flyweight pattern in which a relatively small number 
+			/* This real-world code demonstrates the Flyweight pattern in which a relatively small number
 			 * of Character objects is shared many times by a document that has potentially many characters.*/
 
 			// Build a document with text
@@ -39,7 +39,6 @@ namespace GangOfFour.Flyweight
 				Character character = factory.GetCharacter(c);
 				character.Display(pointSize);
 			}
-
 		}
 	}
 }

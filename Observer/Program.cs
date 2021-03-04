@@ -21,7 +21,7 @@ namespace GangOfFour.Observer
 			Console.WriteLine("** Real World example **");
 			Console.WriteLine();
 
-			/* This real-world code demonstrates the Observer pattern in which registered investors are 
+			/* This real-world code demonstrates the Observer pattern in which registered investors are
 			 * notified every time a stock changes value. */
 
 			// Create IBM stock and attach investors

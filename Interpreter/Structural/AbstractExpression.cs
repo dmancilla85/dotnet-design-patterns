@@ -4,7 +4,7 @@
 	/// The 'AbstractExpression' abstract class
 	/// </summary>
 	internal abstract class AbstractExpression
-  {
-    public abstract void Interpret(Context context);
-  }
+	{
+		public abstract void Interpret(Context context);
+	}
 }

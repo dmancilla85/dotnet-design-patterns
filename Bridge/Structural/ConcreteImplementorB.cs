@@ -7,10 +7,10 @@ namespace GangOfFour.Bridge.Structural
 	/// </summary>
 	internal class ConcreteImplementorB : Implementor
 
-{
-  public override void Operation()
-  {
-    Console.WriteLine("ConcreteImplementorB Operation");
-  }
-}
+	{
+		public override void Operation()
+		{
+			Console.WriteLine("ConcreteImplementorB Operation");
+		}
+	}
 }

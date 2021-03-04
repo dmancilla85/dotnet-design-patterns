@@ -7,10 +7,10 @@ namespace GangOfFour.Flyweight.Structural
 	/// </summary>
 	internal class ConcreteFlyweight : Flyweight
 
-  {
-    public override void Operation(int extrinsicstate)
-    {
-      Console.WriteLine("ConcreteFlyweight: " + extrinsicstate);
-    }
-  }
+	{
+		public override void Operation(int extrinsicstate)
+		{
+			Console.WriteLine("ConcreteFlyweight: " + extrinsicstate);
+		}
+	}
 }

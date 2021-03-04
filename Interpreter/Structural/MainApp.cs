@@ -1,29 +1,24 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections;
 
 namespace GangOfFour.Interpreter.Structural
 {
 	/// <summary>
-	/// MainApp startup class for Structural 
-	/// Interpreter Design Pattern.
+	/// MainApp startup class for Structural Interpreter Design Pattern.
 	/// </summary>
 	internal static class MainApp
 
-  {
-    /// <summary>
-    /// Entry point into console application.
-    /// </summary>
-    internal static void OtherMain()
-    {
-      Context context = new Context();
+	{
+		/// <summary>
+		/// Entry point into console application.
+		/// </summary>
+		internal static void OtherMain()
+		{
+			Context context = new Context();
 
-			// Usually a tree 
+			// Usually a tree
 			ArrayList list = new ArrayList
 			{
-
-				// Populate 'abstract syntax tree' 
+				// Populate 'abstract syntax tree'
 				new TerminalExpression(),
 				new NonterminalExpression(),
 				new TerminalExpression(),
@@ -32,9 +27,9 @@ namespace GangOfFour.Interpreter.Structural
 
 			// Interpret
 			foreach (AbstractExpression exp in list)
-      {
-        exp.Interpret(context);
-      }
-    }
-  }
+			{
+				exp.Interpret(context);
+			}
+		}
+	}
 }

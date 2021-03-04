@@ -5,13 +5,13 @@
 	/// </summary>
 	internal class Proxy : Subject
 
-  {
-    private RealSubject _realSubject;
+	{
+		private RealSubject _realSubject;
 
-    public override void Request()
-    {
+		public override void Request()
+		{
 			// Use 'lazy initialization'
 			(_realSubject ??= new RealSubject()).Request();
-    }
-  }
+		}
+	}
 }

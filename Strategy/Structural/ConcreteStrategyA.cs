@@ -7,11 +7,11 @@ namespace GangOfFour.Strategy.Structural
 	/// </summary>
 	internal class ConcreteStrategyA : Strategy
 
-  {
-    public override void AlgorithmInterface()
-    {
-      Console.WriteLine(
-        "Called ConcreteStrategyA.AlgorithmInterface()");
-    }
-  }
+	{
+		public override void AlgorithmInterface()
+		{
+			Console.WriteLine(
+				"Called ConcreteStrategyA.AlgorithmInterface()");
+		}
+	}
 }

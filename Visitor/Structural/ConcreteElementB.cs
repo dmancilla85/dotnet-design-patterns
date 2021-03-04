@@ -5,15 +5,15 @@
 	/// </summary>
 	internal class ConcreteElementB : Element
 
-  {
-    public override void Accept(Visitor visitor)
-    {
-      visitor.VisitConcreteElementB(this);
-    }
+	{
+		public override void Accept(Visitor visitor)
+		{
+			visitor.VisitConcreteElementB(this);
+		}
 
-    public void OperationB()
-    {
-      // do something
-    }
-  }
+		public void OperationB()
+		{
+			// do something
+		}
+	}
 }

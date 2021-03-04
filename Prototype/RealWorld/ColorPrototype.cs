@@ -5,7 +5,7 @@
 	/// </summary>
 	internal abstract class ColorPrototype
 
-  {
-    public abstract ColorPrototype Clone();
-  }
+	{
+		public abstract ColorPrototype Clone();
+	}
 }

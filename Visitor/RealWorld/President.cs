@@ -2,11 +2,11 @@
 {
 	internal class President : Employee
 
-  {
-    // Constructor
-    public President()
-      : base("Dick", 45000.0, 21)
-    {
-    }
-  }
+	{
+		// Constructor
+		public President()
+			: base("Dick", 45000.0, 21)
+		{
+		}
+	}
 }

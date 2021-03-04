@@ -5,8 +5,9 @@ using System;
 namespace GangOfFour.Strategy
 {
 	/// <summary>
-	/// Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy 
-	/// lets the algorithm vary independently from clients that use it.
+	/// Define a family of algorithms, encapsulate each one, and make them
+	/// interchangeable. Strategy lets the algorithm vary independently from
+	/// clients that use it.
 	/// </summary>
 	internal static class Program
 	{
@@ -21,8 +22,8 @@ namespace GangOfFour.Strategy
 			Console.WriteLine("** Real World example **");
 			Console.WriteLine();
 
-			/* This real-world code demonstrates the Strategy pattern which encapsulates sorting algorithms 
-			 * in the form of sorting objects. This allows clients to dynamically change sorting strategies 
+			/* This real-world code demonstrates the Strategy pattern which encapsulates sorting algorithms
+			 * in the form of sorting objects. This allows clients to dynamically change sorting strategies
 			 * including Quicksort, Shellsort, and Mergesort.*/
 
 			// Two contexts following different strategies
@@ -42,7 +43,6 @@ namespace GangOfFour.Strategy
 
 			studentRecords.SetSortStrategy(new MergeSort());
 			studentRecords.Sort();
-
 		}
 	}
 }

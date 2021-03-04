@@ -45,9 +45,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Flyweight\Flyw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{2450ACF8-FB9F-4D0E-A709-3EEC919A3F18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{6419E0D9-8FF8-4952-A2D0-31B6364684CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "Interpreter\Interpreter.csproj", "{6419E0D9-8FF8-4952-A2D0-31B6364684CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{CD700B3B-B347-42AB-94D9-0F85E25E3CDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{CD700B3B-B347-42AB-94D9-0F85E25E3CDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircuitBreaker", "CircuitBreaker\CircuitBreaker.csproj", "{5886D87A-BA68-4DBB-8DDF-4EC36111BA05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{CD700B3B-B347-42AB-94D9-0F85E25E3CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD700B3B-B347-42AB-94D9-0F85E25E3CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD700B3B-B347-42AB-94D9-0F85E25E3CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5886D87A-BA68-4DBB-8DDF-4EC36111BA05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5886D87A-BA68-4DBB-8DDF-4EC36111BA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5886D87A-BA68-4DBB-8DDF-4EC36111BA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5886D87A-BA68-4DBB-8DDF-4EC36111BA05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

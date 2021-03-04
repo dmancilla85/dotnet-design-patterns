@@ -7,10 +7,10 @@ namespace GangOfFour.Proxy.Structural
 	/// </summary>
 	internal class RealSubject : Subject
 
-  {
-    public override void Request()
-    {
-      Console.WriteLine("Called RealSubject.Request()");
-    }
-  }
+	{
+		public override void Request()
+		{
+			Console.WriteLine("Called RealSubject.Request()");
+		}
+	}
 }

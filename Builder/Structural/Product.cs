@@ -8,19 +8,19 @@ namespace GangOfFour.Builder.Structural
 	/// </summary>
 	internal class Product
 
-  {
-    private readonly List<string> _parts = new List<string>();
+	{
+		private readonly List<string> _parts = new List<string>();
 
-    public void Add(string part)
-    {
-      _parts.Add(part);
-    }
+		public void Add(string part)
+		{
+			_parts.Add(part);
+		}
 
-    public void Show()
-    {
-      Console.WriteLine("\nProduct Parts -------");
-      foreach (string part in _parts)
-        Console.WriteLine(part);
-    }
-  }
+		public void Show()
+		{
+			Console.WriteLine("\nProduct Parts -------");
+			foreach (string part in _parts)
+				Console.WriteLine(part);
+		}
+	}
 }

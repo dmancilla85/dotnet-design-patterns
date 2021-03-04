@@ -5,18 +5,18 @@
 	/// </summary>
 	internal class Abstraction
 
-{
-  protected Implementor implementor;
+	{
+		protected Implementor implementor;
 
-  // Property
-  public Implementor Implementor
-  {
-    set { implementor = value; }
-  }
+		// Property
+		public Implementor Implementor
+		{
+			set { implementor = value; }
+		}
 
-  public virtual void Operation()
-  {
-    implementor.Operation();
-  }
-}
+		public virtual void Operation()
+		{
+			implementor.Operation();
+		}
+	}
 }

@@ -6,10 +6,10 @@ namespace GangOfFour.Interpreter.Structural
 	/// The 'TerminalExpression' class
 	/// </summary>
 	internal class TerminalExpression : AbstractExpression
-  {
-    public override void Interpret(Context context)
-    {
-      Console.WriteLine("Called Terminal.Interpret()");
-    }
-  }
+	{
+		public override void Interpret(Context context)
+		{
+			Console.WriteLine("Called Terminal.Interpret()");
+		}
+	}
 }

@@ -5,7 +5,7 @@
 	/// </summary>
 	internal abstract class Subject
 
-  {
-    public abstract void Request();
-  }
+	{
+		public abstract void Request();
+	}
 }

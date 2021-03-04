@@ -5,30 +5,27 @@
 	/// </summary>
 	internal class Employee : Element
 
-  {
-    // Constructor
-    public Employee(string name, double income,
-      int vacationDays)
-    {
-      this.Name = name;
-      this.Income = income;
-      this.VacationDays = vacationDays;
-    }
+	{
+		// Constructor
+		public Employee(string name, double income,
+			int vacationDays)
+		{
+			this.Name = name;
+			this.Income = income;
+			this.VacationDays = vacationDays;
+		}
 
 		// Gets or sets the name
 
+		public double Income { get; set; }
 		public string Name { get; set; }
 
-		// Gets or sets income
-
-		public double Income { get; set; }
-
-		// Gets or sets number of vacation days
+		// Gets or sets income Gets or sets number of vacation days
 		public int VacationDays { get; set; }
 
 		public override void Accept(IVisitor visitor)
-    {
-      visitor.Visit(this);
-    }
-  }
+		{
+			visitor.Visit(this);
+		}
+	}
 }

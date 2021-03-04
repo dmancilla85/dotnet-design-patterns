@@ -8,11 +8,11 @@ namespace GangOfFour.Strategy.RealWorld
 	/// </summary>
 	internal class MergeSort : SortStrategy
 
-  {
-    public override void Sort(List<string> list)
-    {
-      //list.MergeSort(); not-implemented
-      Console.WriteLine("MergeSorted list ");
-    }
-  }
+	{
+		public override void Sort(List<string> list)
+		{
+			//list.MergeSort(); not-implemented
+			Console.WriteLine("MergeSorted list ");
+		}
+	}
 }

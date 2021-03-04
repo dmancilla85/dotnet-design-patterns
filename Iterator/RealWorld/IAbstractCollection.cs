@@ -5,7 +5,7 @@
 	/// </summary>
 	internal interface IAbstractCollection
 
-  {
-    Iterator CreateIterator();
-  }
+	{
+		Iterator CreateIterator();
+	}
 }

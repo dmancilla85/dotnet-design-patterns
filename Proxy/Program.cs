@@ -20,7 +20,7 @@ namespace GangOfFour.Proxy
 			Console.WriteLine("** Real World example **");
 			Console.WriteLine();
 
-			/* This real-world code demonstrates the Proxy pattern for a Math object represented by a 
+			/* This real-world code demonstrates the Proxy pattern for a Math object represented by a
 			 * MathProxy object. */
 			// Create math proxy
 

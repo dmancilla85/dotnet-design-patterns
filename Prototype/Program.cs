@@ -5,8 +5,8 @@ using System;
 namespace GangOfFour.Prototype
 {
 	/// <summary>
-	/// Specify the kind of objects to create using a prototypical instance, and create new objects 
-	/// by copying this prototype.
+	/// Specify the kind of objects to create using a prototypical instance, and
+	/// create new objects by copying this prototype.
 	/// </summary>
 	internal static class Program
 	{
@@ -21,7 +21,7 @@ namespace GangOfFour.Prototype
 			Console.WriteLine("** Real World example **");
 			Console.WriteLine();
 
-			/* This real-world code demonstrates the Prototype pattern in which new Color objects are created 
+			/* This real-world code demonstrates the Prototype pattern in which new Color objects are created
 			 * by copying pre-existing, user-defined Colors of the same type. */
 
 			ColorManager colormanager = new ColorManager();

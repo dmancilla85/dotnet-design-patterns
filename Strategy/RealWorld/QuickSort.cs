@@ -8,12 +8,12 @@ namespace GangOfFour.Strategy.RealWorld
 	/// </summary>
 	internal class QuickSort : SortStrategy
 
-  {
-    public override void Sort(List<string> list)
-    {
-      list.Sort(); // Default is Quicksort
+	{
+		public override void Sort(List<string> list)
+		{
+			list.Sort(); // Default is Quicksort
 
-      Console.WriteLine("QuickSorted list ");
-    }
-  }
+			Console.WriteLine("QuickSorted list ");
+		}
+	}
 }

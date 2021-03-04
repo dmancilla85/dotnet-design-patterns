@@ -7,17 +7,17 @@ namespace GangOfFour.State.Structural
 	/// </summary>
 	internal class Context
 
-  {
-    private State _state;
+	{
+		private State _state;
 
-    // Constructor
-    public Context(State state)
-    {
-      this.State = state;
-    }
+		// Constructor
+		public Context(State state)
+		{
+			this.State = state;
+		}
 
-    // Gets or sets the state
-    public State State
+		// Gets or sets the state
+		public State State
 		{
 			get => _state;
 			set
@@ -26,14 +26,14 @@ namespace GangOfFour.State.Structural
 				_state = value;
 				if (_state != null)
 				{
-					Console.WriteLine("State: " +_state.GetType().Name);
+					Console.WriteLine("State: " + _state.GetType().Name);
 				}
 			}
 		}
 
 		public void Request()
-    {
-      _state.Handle(this);
-    }
-  }
+		{
+			_state.Handle(this);
+		}
+	}
 }

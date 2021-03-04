@@ -5,7 +5,7 @@
 	/// </summary>
 	internal abstract class Flyweight
 
-  {
-    public abstract void Operation(int extrinsicstate);
-  }
+	{
+		public abstract void Operation(int extrinsicstate);
+	}
 }

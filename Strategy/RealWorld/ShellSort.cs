@@ -8,11 +8,11 @@ namespace GangOfFour.Strategy.RealWorld
 	/// </summary>
 	internal class ShellSort : SortStrategy
 
-  {
-    public override void Sort(List<string> list)
-    {
-      //list.ShellSort(); not-implemented
-      Console.WriteLine("ShellSorted list ");
-    }
-  }
+	{
+		public override void Sort(List<string> list)
+		{
+			//list.ShellSort(); not-implemented
+			Console.WriteLine("ShellSorted list ");
+		}
+	}
 }

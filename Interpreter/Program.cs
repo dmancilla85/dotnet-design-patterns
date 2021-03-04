@@ -1,13 +1,13 @@
-﻿using GangOfFour.Interpreter.Structural;
-using GangOfFour.Interpreter.RealWorld;
+﻿using GangOfFour.Interpreter.RealWorld;
+using GangOfFour.Interpreter.Structural;
 using System;
 using System.Collections.Generic;
 
 namespace GangOfFour.Interpreter
 {
 	/// <summary>
-	///  Given a language, define a representation for its grammar along with an interpreter that 
-	///  uses the representation to interpret sentences in the language.
+	/// Given a language, define a representation for its grammar along with an
+	/// interpreter that uses the representation to interpret sentences in the language.
 	/// </summary>
 	internal static class Program
 	{
@@ -22,7 +22,7 @@ namespace GangOfFour.Interpreter
 			Console.WriteLine("** Real World example **");
 			Console.WriteLine();
 
-			/* This real-world code demonstrates the Interpreter pattern which is used to convert a 
+			/* This real-world code demonstrates the Interpreter pattern which is used to convert a
 			 * Roman numeral to a decimal. */
 
 			const string roman = "MCMXXVIII";

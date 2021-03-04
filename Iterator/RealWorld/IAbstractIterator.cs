@@ -4,10 +4,13 @@
 	/// The 'Iterator' interface
 	/// </summary>
 	internal interface IAbstractIterator
-  {
-    Item First();
-    Item Next();
-    bool IsDone { get; }
-    Item CurrentItem { get; }
-  }
+	{
+		Item CurrentItem { get; }
+
+		bool IsDone { get; }
+
+		Item First();
+
+		Item Next();
+	}
 }

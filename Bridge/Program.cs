@@ -20,14 +20,13 @@ namespace GangOfFour.Bridge
 			Console.WriteLine("** Real World example **");
 			Console.WriteLine();
 
-			/* This real-world code demonstrates the Bridge pattern in which a BusinessObject abstraction 
-			 * is decoupled from the implementation in DataObject. The DataObject implementations can 
+			/* This real-world code demonstrates the Bridge pattern in which a BusinessObject abstraction
+			 * is decoupled from the implementation in DataObject. The DataObject implementations can
 			 * evolve dynamically without changing any clients. */
 
 			// Create RefinedAbstraction
 			Customers customers = new Customers("Chicago")
 			{
-
 				// Set ConcreteImplementor
 				Data = new CustomersData()
 			};
@@ -41,7 +40,6 @@ namespace GangOfFour.Bridge
 			customers.Add("Henry Velasquez");
 
 			customers.ShowAll();
-
 		}
 	}
 }

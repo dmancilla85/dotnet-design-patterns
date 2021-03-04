@@ -5,17 +5,16 @@
 	/// </summary>
 	internal abstract class Prototype
 
-  {
-
-    // Constructor
-    protected Prototype(string id)
-    {
-      this.Id = id;
-    }
+	{
+		// Constructor
+		protected Prototype(string id)
+		{
+			this.Id = id;
+		}
 
 		// Gets id
 		public string Id { get; }
 
 		public abstract Prototype Clone();
-  }
+	}
 }

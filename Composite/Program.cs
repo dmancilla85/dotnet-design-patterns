@@ -5,8 +5,9 @@ using System;
 namespace GangOfFour.Composite
 {
 	/// <summary>
-	/// Compose objects into tree structures to represent part-whole hierarchies. 
-	/// Composite lets clients treat individual objects and compositions of objects uniformly.
+	/// Compose objects into tree structures to represent part-whole hierarchies.
+	/// Composite lets clients treat individual objects and compositions of
+	/// objects uniformly.
 	/// </summary>
 	internal static class Program
 	{
@@ -21,11 +22,11 @@ namespace GangOfFour.Composite
 			Console.WriteLine("** Real World example **");
 			Console.WriteLine();
 
-			/* This real-world code demonstrates the Composite pattern used in building a graphical tree 
-			 * structure made up of primitive nodes (lines, circles, etc) and composite nodes (groups of 
+			/* This real-world code demonstrates the Composite pattern used in building a graphical tree
+			 * structure made up of primitive nodes (lines, circles, etc) and composite nodes (groups of
 			 * drawing elements that make up more complex elements).*/
 
-			// Create a tree structure 
+			// Create a tree structure
 			CompositeElement root =
 				new CompositeElement("Picture");
 			root.Add(new PrimitiveElement("Red Line"));
